@@ -1,0 +1,15 @@
+session_name: AUS
+start_directory: "$HOME/Documents/Dev/Ramiro/aus"
+windows:
+  - window_name: Taller 3
+    layout: main-vertical
+    panes:
+      - cd Taller\ de\ Programacion\ 3 && nvim
+      -
+  - window_name: Sist Op
+    layout: main-vertical
+    panes:
+      - cd Sistemas\ Operativos && nvim
+      -
+  - window_name: Terminal
+    layout: main-vertical

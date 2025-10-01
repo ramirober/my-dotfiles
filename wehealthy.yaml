@@ -1,0 +1,22 @@
+session_name: WeHealthy
+start_directory: "$HOME/Documents/Dev/doc24/MYLD"
+windows:
+  - window_name: Nvim
+    layout: main-vertical
+    panes:
+      - nvim
+  - window_name: Frontend Web
+    layout: main-vertical
+    panes:
+      - cd projects/patient-web && nvm use
+  - window_name: Frontend Mobile
+    layout: main-vertical
+    panes:
+      - cd projects/patient && nvm use
+  - window_name: Backend
+    layout: main-vertical
+    panes:
+      - cd projects/backend && nvm use
+  - window_name: Terminal
+    start_directory: "$HOME"
+    layout: main-vertical
